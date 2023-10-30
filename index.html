@@ -12,7 +12,7 @@
     <script src="lib/playerControls.js"></script>
     <script src="lib/optimizer.js"></script>
     <script src="lib/generator.js"></script>
-    <title>Sokoban lvl generator</title>
+    <title>Sokoban  </title>
 </head>
 
 <body>
@@ -36,22 +36,23 @@
 
             <div class="slideContainer">
                 <div id="sizeTxt" style="color: rgb(255, 255, 255)">size of level</div>
-                <input type="range" min="7" max="20" value="10" class="slider" id="sizeSlider"
+                <input type="range" min="7" max="20" value="11" class="slider" id="sizeSlider"
                     onchange="displayHtmlValues()">
 
                 <div id="boxTxt" style="color: rgb(255, 255, 255)">number of boxes</div>
                 <input type="range" min="1" max="10" value="3" class="slider" id="numSlider"
                     onchange="displayHtmlValues()">
             </div>
+            <div class="instructions">
+                <h1>Instructions</h1>
+                <h3>Controls: LEFT, RIGHT, UP, DOWN.</h3>
+                <h3>Next Level: ENTER</h3>
+                <h3>Revert Steps: Z</h3>
+            </div>
         </div>
 
         <div id="canvas1" class="canv"></div>
-        <div class="instructions">
-            <h1>Instructions</h1>
-            <h3>Controls: LEFT, RIGHT, UP, DOWN.</h3>
-            <h3>Next Level: ENTER</h3>
-            <h3>Revert Steps: Z</h3>
-        </div>
+        
     </div>
     </div>
 </body>
